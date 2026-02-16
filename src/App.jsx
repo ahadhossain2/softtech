@@ -7,13 +7,15 @@ import Footer from "./common/Footer";
 
 export default function App() {
   return (
-      <Navbar />
+    <>
+        <Navbar />
     <Home/>
       </Routes>
 
       <Footer />
       {/* <FollowCursor /> */}
-    </BrowserRouter>
+    </>
   );
 
 }
+
