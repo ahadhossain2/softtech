@@ -5,7 +5,7 @@ import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 import Hero from "../../pages/Home/Hero";
-import Provide from "../../pages/Home/provide";
+import Provide from "../../pages/Home/Provide";
 import ContactForm from "../../common/ContactForm";
 
 const Home = () => {
@@ -202,5 +202,6 @@ const Home = () => {
     </>
   );
 };
+
 
 export default Home;
