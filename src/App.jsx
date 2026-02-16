@@ -7,15 +7,11 @@ import Footer from "./common/Footer";
 
 export default function App() {
   return (
-    <>
-        <Navbar />
-    <Home/>
-      </Routes>
-
+     <div className="overflow-hidden">
+      <Navbar />
+      <Home />
+      <About />
       <Footer />
-      {/* <FollowCursor /> */}
-    </>
+      </div>
   );
-
 }
-
