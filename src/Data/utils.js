@@ -1,4 +1,4 @@
-/** @format */
+import React from "react";
 
 
 import {
@@ -113,4 +113,5 @@ export const Menus = [{
         name: "Our Products",
         path: "/product",
     },
+
 ];
